@@ -5,7 +5,7 @@
 		"whatsapp",
 		"bot"
 	],
-	"repository": "https://github.com/raganork-ind/whatsapp-bot",
+	"repository": "https://github.com/fundsmo/whatsapp-bot",
 	"stack": "container",
     "env": { 
         "HANDLERS": {
@@ -37,12 +37,7 @@
             "description": "Exact name which you gave at the top",
             "required": true,
             "value":""
-        },
-        "STICKER_DATA": {
-            "description": "Name of stickers created using bot. Can also split using ;",
-            "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
-        },
+             },
         "CHATBOT": {
             "description": "AI chatbot",
             "required": true,
@@ -52,12 +47,7 @@
             "description": "Name of AI chatbot",
             "required": true,
             "value":"Raganork"
-        },
-        "AUDIO_DATA": {
-            "description": "Name of audio (take) name;name;image(url)",
-            "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
-        },
+
         "MODE": {
             "description": "Private or public",
             "required": true,
@@ -66,15 +56,15 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"0776441042"
         },
         "ALIVE": {
-            "description": "Alive message {image/link}, {sender} can also be used",
+            "description": "Alive message {welcome}, {fundsmo} can also be used",
             "required": false,
             "value":"{pp} Active since {uptime}\n User:{sender}"
         },
        "SESSION": {
-            "description": "Your MD session",
+            "description": "Your fundsmo session",
             "required": true
              
         }
